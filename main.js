@@ -38,7 +38,7 @@ const submitfunc=()=>{
         width:26rem;
         height: 24rem;
         margin:auto;
-        margin-top:10rem;
+        margin-top:8rem;
         border-radius: 1rem;
         
         
@@ -69,7 +69,9 @@ const submitfunc=()=>{
     margin-top: 1.5rem;
     font-size: 15px;
 }
-    `
-    document.head.appendChild(style)
+
+`
+
+document.head.appendChild(style)
 }
 submit.addEventListener('click',submitfunc)
